@@ -1,0 +1,57 @@
+header {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.primery {
+  min-width: 50px;
+  background-color: #771d1d;
+  color: #3b5b8b;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 40px;
+}
+
+.secondry {
+  min-width: 80px;
+  background-color: #67ac19;
+  color: #20396e;
+  padding: 20px;
+  font-size: 23px;
+  border-radius: 20px;
+}
+
+.third {
+  min-width: 40px;
+  background-color: red;
+  color: #ad7da9;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.box, .container, .card {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  font-size: large;
+  background-color: coral;
+  padding: 20px;
+  margin: 20px;
+  color: #0b396d;
+}
+
+.container {
+  width: 600px;
+  height: 200px;
+}
+
+.card {
+  width: 100px;
+  height: 300px;
+}
+
+h1 {
+  font-size: false;
+}
+/*# sourceMappingURL=main.css.map */

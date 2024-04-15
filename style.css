@@ -1,0 +1,124 @@
+#header {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section h2.section-head {
+  color: #000;
+  text-align: center;
+  margin: 40px;
+}
+.section h2.section-head::after {
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+.section h2.section-head::before {
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+#logo {
+  font-size: 1.9rem;
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  /* display: inline;     */
+}
+.pink {
+  background-color: pink;
+}
+.gray {
+  background-color: gray;
+}
+.lightblue {
+  background-color: lightblue;
+}
+#menu {
+  list-style: none;
+  /* float: right; */
+  text-align: center;
+  margin: auto;
+}
+#menu li {
+  display: inline-block;
+  
+}
+#menu li a {
+  color: #ffffff;
+  padding: 15px 10px;
+  display: block;
+  text-decoration: none;
+}
+#menu li a:hover {
+  background-color: #c0392b;
+}
+#banner {
+  background: url(./Image/Banner.jpg) no-repeat 0 0;
+  background-size: cover;
+  background-position: right;
+  /* object-fit: contain; */
+}
+.banner-title {
+  padding-top: 5rem;
+}
+.banner-title h1 {
+  background-color: rgba(225, 225, 225, 0.7);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+.banner-title p.lead {
+  background-color: #e74d3cb6;
+}
+.service-box {
+  text-align: center;
+}
+.service-box i.bx {
+  font-size: 70px;
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+#testimonial {
+  background: url(./Image/img3.jpg) no-repeat 0 0;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+.testimonial img {
+  width: 50px;
+  border-radius: 50%;
+}
+#menu h3,
+a {
+  color: #e74c3c;
+}
+.news-post h3 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+#news img {
+  width: 250px;
+  height: 150px;
+}
+
+#footer-sidebar {
+  color: #fff;
+  background-color: #34495e;
+  padding: 20px 0;
+}
